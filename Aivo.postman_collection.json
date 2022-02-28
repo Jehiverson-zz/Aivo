@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "4935b62a-9a32-424f-a94e-974624e5e35d",
+		"name": "Aivo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Api get Albums",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.aivo/api/v1/albums?q=Bunbury",
+					"host": [
+						"api",
+						"aivo"
+					],
+					"path": [
+						"api",
+						"v1",
+						"albums"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Bunbury"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
